@@ -1,0 +1,126 @@
+* {
+    margin: 0px 0px;
+    font-family: Roboto, Arial;
+    min-width: 0;
+}
+
+body {
+    background-image: url('Images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 80px;
+    width: 1fr;
+    padding: 0px 22px;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-image: url(Images/navigation-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.navigation button {
+    padding: 6px 10px;
+    border: 1.5px solid #606060;
+    border-radius: 4px;
+    background: transparent;
+    box-shadow: 0 0 50px black;
+}
+
+.navigation button a {
+    color: #3f3f3f;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.head {
+    margin: 50px 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 15px black;
+}
+
+.head span {
+    font-size: 25px;
+}
+
+.photo {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px black;
+}
+
+.see-more-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.see-more-btn {
+    padding: 6px 10px;
+    border: 1.5px solid #606060;
+    border-radius: 4px;
+    background: transparent;
+    box-shadow: 0 0 50px black;    
+}
+
+.see-more-btn a {    
+    color: #3f3f3f;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.conclusion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    color: #606060;
+}
+
+.partition {
+    background-color: gray;
+    border: none;
+    height: 2px;
+    width: 85%;
+    margin-bottom: 20px;
+    border-radius: 1000px;
+}
+
+.mail {
+    text-decoration: none;
+    color: #606060;
+}

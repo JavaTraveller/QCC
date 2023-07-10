@@ -1,0 +1,141 @@
+* {
+    margin: 0px 0px;
+    font-family: Roboto, Arial;
+    min-width: 0;
+}
+
+body {
+    background-image: url('Images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 80px;
+    width: 1fr;
+    padding: 0px 22px;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-image: url(Images/navigation-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.navigation button {
+    padding: 6px 10px;
+    border: 1.5px solid #606060;
+    border-radius: 4px;
+    background: transparent;
+    box-shadow: 0 0 50px black;
+}
+
+.navigation button a {
+    color: #3f3f3f;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.container {
+    margin-top: 100px;
+}
+
+.head {
+    margin: 50px 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 15px black;
+}
+
+.head span {
+    font-size: 25px;
+}
+
+.ditails1,
+.ditails2,
+.ditails3,
+.ditails4 {
+    height: 270px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 50px black;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.ditails1 {
+    background-image: url(Images/bg1.jpg);
+}
+
+.ditails2 {
+    background-image: url(Images/bg2.jpg);
+}
+
+.ditails3 {
+    background-image: url(Images/bg3.jpg);
+}
+
+.ditails4 {
+    background-image: url(Images/bg4.jpg);
+}
+
+.profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    box-shadow: 0 0 40px black;
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+
+.status {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 160px;
+    line-height: 40px;
+    text-shadow: 15px 0px 10px black, 0px 15px 10px black, -15px 0px 10px black, 0px -15px 10px black;
+}
+
+.conclusion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    color: #606060;
+}
+
+.partition {
+    background-color: gray;
+    border: none;
+    height: 2px;
+    width: 85%;
+    margin-bottom: 20px;
+    border-radius: 1000px;
+}
+
+.mail {
+    text-decoration: none;
+    color: #606060;
+}
